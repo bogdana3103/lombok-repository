@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+.mainHead {
+    background: url(../../../image/headImage.svg);
+    height: 938px;
+    background-size: 100%;
+    margin: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.rightMenu {
+    display: flex;
+    width: 360px;
+    justify-content: space-around;
+}
+.articles {
+    width: 85px;
+    height: 14px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+    color: rgb(24, 23, 23);
+    margin: 0 !important
+}
+.about {
+    width: 60px;
+    height: 14px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+    color: #484D47;
+}
+.subscribe {
+    width: 98px;
+    height: 14px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+    color: #484D47;
+}
