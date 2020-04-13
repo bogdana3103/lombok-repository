@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+.latestTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latestArticles {
+    height: 1211px;
+    background: #F4F6F3;
+}
+.latestText {
+    margin: 155px 0px 0px;
+    width: 328px;
+    height: 36px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #484D47;
+}
+.latestLine {
+    margin: 20px auto;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408.34px;
+    height: 612.51px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,1.5);
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408.34px;
+    height: 612.51px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,1.5);
+}
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408.34px;
+    height: 612.51px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,1.5);
+}
+.latestInner {
+    display: flex;
+    justify-content: space-around;
+    margin: 82px 40px 0px;
+}
+.boxLine {
+    width: 62px;
+    height: 4px;
+    background: #74887F;
+    margin: 102px 0px 0px;
+}
+.textBox1 {
+    width: 272px;
+    height: 68px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: black;
+}
+.textBox2 {
+    width: 307px;
+    height: 68px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #484D47;
+}
+.textBox3 {
+    width: 307px;
+    height: 68px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #484D47;
+}
