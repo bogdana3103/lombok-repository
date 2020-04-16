@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+.aboutWrap {
+    display: flex;
+    background: #FFFFFF;
+    height: 720px;
+}
+.andreasDress {
+    width: 720px;
+    height: 720px;
+}
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 155px auto;
+}
+.aboutTitle {
+    width: 130px;
+    height: 36px;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #484D47;
+}
+.aboutLine {
+    width: 81px;
+    height: 5px;
+    background: #74887F;
+    margin: 20px auto; 
+}
+.aboutText {
+    width: 501px;
+    height: 261px;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #484D47;
+    align-content: space-around;
+    margin: 60px 0px 0px;
+}

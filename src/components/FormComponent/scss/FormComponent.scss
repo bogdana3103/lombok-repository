@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+.text {
+    width: 464px;
+    height: 55px;
+    background: #F4F6F3;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 10px;
+    color:  rgba(72, 77, 71, 0.5);
+}
+.formWrap {
+    height: 556px;
+    background: #E1E6E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 464px;
+    height: 55px;
+    background-color: #E1E6E0;
+    border: 2px solid #484D47; 
+}
+.formTitle {
+    width: 204px;
+    height: 36px;
+    font-family: Josefin Sans;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #484D47;
+    margin: 0px;
+}
+.formText {
+    width: 283px;
+    height: 24px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #484D47;
+    margin: 20px 0px;
+}
+.buttonText {
+    width: 121px;
+    height: 20px;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 0.17em;
+    color: #484D47;
+    margin: 0px;
+    padding-left: 165px;
+}
