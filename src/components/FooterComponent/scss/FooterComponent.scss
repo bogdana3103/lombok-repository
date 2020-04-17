@@ -1,0 +1,27 @@
+.items {
+    display: flex;
+    width: 200px;
+    height: 36px;
+    justify-content: space-around;
+}
+.mainFooter {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 85px;
+}
+.textt {
+    width: 98px;
+    height: 14px;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+}
+.footerText {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
