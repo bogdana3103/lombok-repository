@@ -24,6 +24,7 @@
     display: flex;
     width: 360px;
     justify-content: space-around;
+    align-items: flex-end;
 }
 .articles {
     width: 85px;
@@ -90,3 +91,72 @@
     width: 81px;
     height: 5px;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .mainHead {
+        height: 480px;
+        margin: 10px;
+    }
+    .menu {
+        margin-top: 0px;
+        margin-bottom: 80px;
+        padding: 10px 12px 0px;
+    }
+    .articles {
+        width: 75px;
+        height: 9px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.25em;
+    }
+    .about {
+        width: 53.85px;
+        height: 9px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.25em;
+    }
+    .subscribe{
+        width: 84.77px;
+        height: 9px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.25em;
+    }
+    .logoImage {
+        width: 29.92px;
+        height: 17.2px;
+    }
+    .rightMenu {
+        width: 300px;
+        justify-content: space-between;
+    }
+    .lombok {
+        width: 317px;
+        height: 58px;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 0.06em;
+        margin: 30px 0px 15px ;
+    }
+    .health {
+        width: 220px;
+        height: 18px;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0px;
+    }
+    .line {
+        width: 45px;
+        height: 3px;
+        margin-top: 22px
+    }
+}
+
+/*@media only screen and (min-width: 320px)  {
+    .mainHead {
+        background: url(../../../image/headImageSmall.png);
+        height: 544px;
+    }
+}*/

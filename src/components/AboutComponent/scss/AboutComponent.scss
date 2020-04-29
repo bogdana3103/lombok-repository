@@ -43,3 +43,43 @@
     align-content: space-around;
     margin: 60px 0px 0px;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .aboutWrap {
+        height: 384px;
+    }
+    .andreasDress {
+        width: 384px;
+        height: 384px;
+    }
+    .aboutContent {
+        margin: 0px;
+        width: 384px;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutLine {
+        width: 45px;
+        height: 3px;
+        margin: 10px auto 32px;
+    }
+    .aboutText {
+        margin: 0px;
+        width: 304px;
+        height: 190px;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+    }
+    .aboutTitle {
+        margin: 0px;
+        width: 87px;
+        height: 22px;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+
+}

@@ -1,7 +1,7 @@
 .items {
     display: flex;
-    width: 200px;
     height: 36px;
+    width: 250px;
     justify-content: space-around;
 }
 .mainFooter {
@@ -24,4 +24,29 @@
     display: flex;
     width: 350px;
     justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .facebook {
+        height: 20px;
+    }
+    .items {
+        width: 110px;
+        height: 20px;
+    }
+    .mainFooter {
+        height: 130px;
+        padding: 0px 28px;
+    }
+    .textt {
+        width: 84px;
+        height: 8px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.17em;
+    }
+    .footerText {
+        width: 290px;
+    }
 }
