@@ -50,3 +50,33 @@
         width: 290px;
     }
 }
+
+@media only screen and (min-width: 320px)  {
+    .mainFooter {
+        height: 246px;
+        width: 320px;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .footerText {
+        flex-direction: column;
+        height: 77px;
+        width: 98px;
+        margin: 50px 80px 0px;
+    }
+    .textt {
+        width: 98px;
+        height: 11px;
+        text-align: center;
+        margin: 0px;
+    }
+    .facebook {
+        height: 22px;
+        width: 24px;
+    }
+    .items {
+        width: 171px;
+        height: 22px;
+        margin: 33px 70px 56px;
+    }
+}

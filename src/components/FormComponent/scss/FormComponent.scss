@@ -96,3 +96,39 @@
         padding-left: 80px;
     }
 }
+
+@media only screen and (min-width: 320px) {
+    .formWrap {
+        height: 300px;
+        width: 320px;
+    }
+    .formTitle {
+        width: 136px;
+        height: 18px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .formText {
+        width: 212px;
+        height: 18px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .text {
+        width: 296px;
+        height: 45px;
+    }
+    .button {
+        width: 296px;
+        height: 45px;
+    }
+    .buttonText {
+        width: 78px;
+        height: 18px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 7px 100px 0px;
+    }
+}

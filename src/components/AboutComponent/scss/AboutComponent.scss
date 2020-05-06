@@ -80,6 +80,66 @@
         line-height: 24px;
         letter-spacing: 0.02em;
     }
+}
 
-
+@media only screen and (min-width: 320px) {
+      .aboutWrap {
+          display: none;
+      }
+      .aboutWrapSmall {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 622px;
+          width: 320px;
+      }
+    .andreasDressSmall {
+        width: 320px;
+        height: 205px;
+    }
+    .aboutTitleSmall {
+        width: 87px;
+        height: 18px;
+        font-family: Josefin Sans;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        margin: 50px 0px 0px;
+    }
+    .aboutLineSmall {
+        width: 56px;
+        height: 3px;
+        margin: 34px 0px;
+    }
+    .aboutText {
+        width: 289px;
+        height: 218px;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    .aboutContentSmall {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textSmall {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 256px;
+        
+    }
+    .aboutText {
+        width: 289px;
+        height: 218px;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0px;
+        text-align: justify;
+    }
+    
 }

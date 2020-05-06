@@ -110,4 +110,52 @@
     }
 }
 
+@media only screen and (min-width: 320px) {
+    .latestInner {
+        width: 320px;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .image {
+        width: 320px;
+        height: 205px;
+    }
+    .box {
+        width: 320px;
+        height: 410px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    }
+    .latestText {
+        width: 182px;
+        height: 15px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        margin: 57px 69px 34px;
+    }
+    .latestLine {
+        width: 56px;
+        height: 3px;
+        margin: 0px;
+    }
+    .textBox {
+        width: 272px;
+        height: 52px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .boxLine {
+        width: 37px;
+        height: 3px;
+        margin: 55px 0px 5px;
+    }
+    .latestArticles {
+        height: 1415px;
+    } 
+}
+
 
