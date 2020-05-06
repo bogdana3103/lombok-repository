@@ -17,7 +17,7 @@ function Latest() {
                 <div className='box' key={box.key}>
                    <img className='image' src={require(`../../image/${box.name}.png`)} alt=""/>
                    <img className='boxLine' src={line} alt={line}/>
-                <p className='textBox'>{box.text}</p> 
+                   <p className='textBox'>{box.text}</p> 
                 </div>
                 )}
             </div>

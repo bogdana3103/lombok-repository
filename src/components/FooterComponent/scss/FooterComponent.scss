@@ -1,0 +1,82 @@
+.items {
+    display: flex;
+    height: 36px;
+    width: 250px;
+    justify-content: space-around;
+}
+.mainFooter {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 85px;
+}
+.textt {
+    width: 98px;
+    height: 14px;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+}
+.footerText {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .facebook {
+        height: 20px;
+    }
+    .items {
+        width: 110px;
+        height: 20px;
+    }
+    .mainFooter {
+        height: 130px;
+        padding: 0px 28px;
+    }
+    .textt {
+        width: 84px;
+        height: 8px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.17em;
+    }
+    .footerText {
+        width: 290px;
+    }
+}
+
+@media only screen and (min-width: 320px)  {
+    .mainFooter {
+        height: 246px;
+        width: 320px;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    .footerText {
+        flex-direction: column;
+        height: 77px;
+        width: 98px;
+        margin: 50px 80px 0px;
+    }
+    .textt {
+        width: 98px;
+        height: 11px;
+        text-align: center;
+        margin: 0px;
+    }
+    .facebook {
+        height: 22px;
+        width: 24px;
+    }
+    .items {
+        width: 171px;
+        height: 22px;
+        margin: 33px 70px 56px;
+    }
+}
